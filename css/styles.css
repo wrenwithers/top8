@@ -7,7 +7,7 @@
 }
 
 .border {
-  border: 5px solid orange;
+  border: 5px solid #FFCD9C;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16,7 +16,8 @@
 }
 
 .title {
-background-color: orange;
+background-color: #FFCD9C;
+color: #CF7A43;
 }
 
 .title h1 {
@@ -35,6 +36,22 @@ padding: 15px 0px 20px 10px;
   margin: 0;
 }
 
+.friends {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.friendsNum {
+  color: red;
+}
+
+.allFriends {
+  float: right;
+  color: red;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
 .clearboth {
   clear: both;
 }
@@ -42,6 +59,13 @@ padding: 15px 0px 20px 10px;
 img {
   width: 200px;
   height: 200px;
-  border: 2px solid grey;
+  border: 2px solid blue;
   margin: 10px;
+}
+
+
+img:nth-child(1) {
+  width: 120px;
+  height: 40px;
+  border: 0px solid white;
 }
